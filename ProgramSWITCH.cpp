@@ -19,5 +19,23 @@ int main() {
     cout << "Masukan Pilihan: ";
     cin >> pilihan;
 
-
-}
+   // Menggunakan switch case untuk menentukan operasi yang dipilih
+   switch (pilihan) {
+        case 1:
+            hasil = bil1 + bil2; // Penjumlahan
+            cout << "Hasilnya adalah: " << hasil << endl;
+            break;
+        case 2:
+            hasil = bil1 - bil2; // Pengurangan
+            cout << "Hasilnya adalah: " << hasil << endl;
+            break;
+        case 3:
+            hasil = bil1 * bil2; // perkalian
+            cout << "Hasilnya adalah: " << hasil << endl;
+            break;
+        default:
+            cout << "Pilihan tidak valid!" << endl; // untuk pilihan tidak valid
+            break;    
+   }
+   return 0; // mengakhiri program dengan status sukses
+}   
