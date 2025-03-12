@@ -14,5 +14,10 @@ int main() {
     cout <<"Masukan Bilangan 2: ";
     cin >> bil2;
 
+    // Menampilkan pilihan operasi yang tersedia
+    cout << "\n(Pilihan: 1=Tambah, 2=Kurang, 3=Kali)\n";
+    cout << "Masukan Pilihan: ";
+    cin >> pilihan;
+
 
 }
