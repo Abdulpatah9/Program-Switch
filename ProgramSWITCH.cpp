@@ -1,5 +1,9 @@
+// Ujian Akhir Semester (UAS) - Algoritma dan Pemrograman Semester Ganjil Tahun Ajaran 2024/2025
+// Universitas Siber Asia (Unsia)
+
 // Program matematika sederhana menggunakan pernyataan switch-case
-// Abdul Patah NIM 230401010308
+// Abdul Patah NIM 230401010308 - PJJ Informatika Kelas IF103
+// Dosen Pengampu: Cian Ramadhona Hassolthine, S.Kom., M.Kom
 
 #include <iostream>
 using namespace std;
